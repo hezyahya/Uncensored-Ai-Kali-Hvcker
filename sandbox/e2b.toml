@@ -1,0 +1,8 @@
+# e2b.toml configuration
+id = "kali-agent-v1"
+dockerfile = "e2b.Dockerfile"
+template_name = "kali-linux-desktop"
+
+[env_vars]
+DISPLAY = ":1"
+DEBIAN_FRONTEND = "noninteractive"
